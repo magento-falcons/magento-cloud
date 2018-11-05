@@ -27,7 +27,7 @@
     },
     "require": {
         "magento/product-enterprise-edition": "2.3.*@beta",
-        "magento/ece-tools": "dev-develop as 2002.0.15",
+        "magento/ece-tools": "2002.0.x-dev",
         "magento/module-paypal-on-boarding": "100.3.0",
         "fastly/magento2": "^1.2.34"
     },
