@@ -18,13 +18,17 @@
         },
         "paypal-onboarding": {
             "type": "vcs",
-            "url": "https://github.com/magento-cloud/magento2-paypal-onboarding.git"
+            "url": "https://github.com/magento/magento2-paypal-onboarding.git"
+        },
+        "magento-ece-tools": {
+            "type": "vcs",
+            "url": "https://github.com/magento/ece-tools"
         }
     },
     "require": {
         "magento/product-enterprise-edition": "2.3.*@beta",
-        "magento/ece-tools": "^2002.0.14",
-        "magento/module-paypal-on-boarding": "dev-MAGECLOUD-1865 as 100.3.0",
+        "magento/ece-tools": "dev-develop as 2002.0.15",
+        "magento/module-paypal-on-boarding": "100.3.0",
         "fastly/magento2": "^1.2.34"
     },
     "config": {
