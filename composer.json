@@ -8,28 +8,13 @@
         "AFL-3.0"
     ],
     "repositories": {
-        "repo": {
-            "type": "composer",
-            "url": "https://repo.magento.com"
-        },
         "sandbox": {
             "type": "composer",
             "url": "https://connect20-qa01.magedevteam.com"
-        },
-        "paypal-onboarding": {
-            "type": "vcs",
-            "url": "https://github.com/magento/magento2-paypal-onboarding.git"
-        },
-        "magento-ece-tools": {
-            "type": "vcs",
-            "url": "https://github.com/magento/ece-tools"
         }
     },
     "require": {
-        "magento/product-enterprise-edition": "2.3.*@beta",
-        "magento/ece-tools": "2002.0.x-dev",
-        "magento/module-paypal-on-boarding": "100.3.0",
-        "fastly/magento2": "^1.2.34"
+        "magento/magento-cloud-metapackage": ">=2.3.0 <2.3.1"
     },
     "config": {
         "use-include-path": true
